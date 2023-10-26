@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 import { ThemeProvider } from "@/context/ThemeProvider";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Metadata } from "next";
