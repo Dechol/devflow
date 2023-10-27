@@ -12,8 +12,6 @@ import React from "react";
 const page = async () => {
   const result = await getQuestions({});
 
-  console.log("result: ", result);
-
   return (
     <>
       <div className="flex w-full flex-col-reverse justify-between gap-4 sm:flex-row sm:items-center">
