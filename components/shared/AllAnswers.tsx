@@ -24,7 +24,6 @@ const AllAnswers = async ({
   filter,
 }: Props) => {
   const results = await getAnswers({ questionId });
-  console.log(results);
 
   return (
     <div className="mt-11">

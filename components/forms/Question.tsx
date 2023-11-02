@@ -33,8 +33,6 @@ const Question = ({ mongoUserId }: Props) => {
   const router = useRouter();
   const pathname = usePathname();
 
-  console.log(mongoUserId);
-
   // 1. Define your form.
   const form = useForm<z.infer<typeof QuestionsSchema>>({
     resolver: zodResolver(QuestionsSchema),
